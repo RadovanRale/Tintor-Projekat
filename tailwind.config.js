@@ -1,6 +1,8 @@
+// tailwind.config.js
 module.exports = {
   content: [
-    "./src/**/*.{html,js,jsx,ts,tsx}", // Ove putanje treba da pokrivaju sve tvoje fajlove
+    "./index.html",
+    "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {},
